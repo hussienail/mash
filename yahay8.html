@@ -220,7 +220,10 @@
 <b style="color:red;">ويسترن يونيون</b><br>
  <br>
 </div>
-    <div class="mbr-section-btn text-center pt-4"><a href="https://api.whatsapp.com/send?phone=+964%20781%20456%203876&text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20%D8%A7%D8%AD%D9%85%D8%AF-&source=&data=&app_absent=" class="btn btn-primary display-4">اطلب موقعك</a>
+    </section>
+    <div class="mbr-section-btn text-center pt-4"><a href="https://api.whatsapp.com/send?phone=966556556742&text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20%D8%B3%D9%84%D8%B7%D8%A7%D9%86-&source=&data=&app_absent=" class="btn btn-primary display-4">اطلب موقعك</a>
+    </div>
+    </article>
 
 
     <div id="footer">
@@ -256,3 +259,52 @@
 
     </body>
 </html>
+    <!--------- javascript files ---------->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+
+        <!-- whatsapp text support widget by bloggerpaths.tech -->
+        <script type="text/javascript">
+            (function() {
+                var options = {
+                    whatsapp: "00966556556742",
+                    // WhatsApp number
+                    company_logo_url: "https://jawalhost.com/img/tablet.png",
+                    // URL of company logo (png, jpg, gif)
+                    greeting_message: "مرحبا، كيف يمكننا مساعدتك؟ فقط أرسل لنا رسالة الآن للحصول على المساعدة.",
+                    // Text of greeting message
+                    call_to_action: "راسلنا",
+                    // Call to action
+                    position: "left",
+                    // Position may be 'right' or 'left'
+                };
+                var proto = document.location.protocol
+                  , host = "whatshelp.io"
+                  , url = proto + "//static." + host;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function() {
+                    WhWidgetSendButton.init(host, proto, options);
+                }
+                ;
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+            )();
+        </script>
+        <!-- /whatsapp text support widget -->
+    </body>
+
+</body>
+

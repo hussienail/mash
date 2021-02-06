@@ -1,4 +1,4 @@
-$(`<a id="عاصم" href=""><i class="fa fa-refresh fa-spin fa-3x fa-fw" aria-hidden="true"></i></a><img id="asim70"src=""style="width:100%"><a id="asim27"target="_blank"type="a"rel="nofollow"title=""href=""class="label-primary">Programming by Dook Mbeil</a></div></div><center>`).insertBefore(".nav-tabs"),$(".nav-tabs").addClass("fl").css("width","100%"),
+$(`<a id="عاصم" href=""><i class="fa fa-refresh fa-spin fa-3x fa-fw" aria-hidden="true"></i></a><img id="asim70"src=""style="width:100%"><a id="asim27"target="_blank"type="a"rel="nofollow"title=""href=""class="label-primary"></a></div></div><center>`).insertBefore(".nav-tabs"),$(".nav-tabs").addClass("fl").css("width","100%"),
 $(`<center><div id="asim1">
 <a id="asim7"rel="dofollow" title="القوانين" href=""style="border-radius: 0 4px 0 0; border-right: 2px solid#f7d322;"class="fl mini  fa fa-bullhorn btn btn-primary" target="_blank"></a>
 <a id="asim7"rel="dofollow" title="الاشتراكات" href=""style="border-right: 1px solid#fff;"class="fl mini  fa fa-star-half-o btn btn-primary" target="_blank"></a>
